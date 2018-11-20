@@ -15,4 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    <distributionManagement>
+    <repository>
+    <id>releases</id>
+    <url>http://192.168.176.1:9090/nexus-webapp-2.10.0-02/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://192.168.176.1:9090/nexus-webapp-2.10.0-02/content/repositories/releases</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
